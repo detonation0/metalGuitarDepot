@@ -1,0 +1,395 @@
+/* Mathew Ruff */
+/* Project Stylesheet */
+
+body	{
+		background-image:url('images/background.jpg');
+		background-repeat:	repeat-y;
+		background-color:	#eeeeee;
+		background-size:	100%;
+		margin:				0 auto;
+		padding:			0;
+		font-family:		"Segoe UI", "Arial Black", Verdana, Arial, sans-serif;	
+		}
+		
+h2		{
+		color:			#fff;
+		font-size:		85%;
+		margin:			0;
+		}
+		
+h3		{
+		color:			#4DB8FF;
+		font-size:		110%;
+		}
+		
+h4		{
+		color:			#fff;
+		font-size:		135%;
+		margin:			0;
+		}
+		
+h5		{
+		color:			black;
+		font-size:		175%;
+		margin:			0;
+		}
+		
+#header	{
+		background-color:	black;
+		height:				90px;
+		text-align:			center;
+		margin:				0px 0px 5px 0px;
+		top:				0;
+		position:			relative;
+		width:				100%;
+		box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+		}
+		
+#share		{
+			position: fixed right;
+			}
+		
+#moduleheader	{
+				background-color:	black;
+				margin:				0px 0px 0px 0px; 
+				width:				100%;
+				}
+		
+#headertitle 	{ 
+				position: relative; top: 10px; left: 380px;
+				float:	left;
+				}
+
+#headericon	{	
+			position: relative; top: 0px; left: 365px;
+			float:	left;
+			}
+			
+
+		
+#navigation		{
+				text-align:		center;
+				margin:			0px 0px 0px 0px;
+				position: 		relative; top: 30px; right: 122px;
+				width:			100%;
+				min-width:		1000px;
+				background-color: clear;
+				clear:			inherit;
+				}
+				
+nav ul ul 	{
+		display: none;
+		}
+
+nav ul li:hover > ul {
+				display: block;
+				}
+	
+nav ul {
+	padding: 0 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+	}
+	
+nav ul:after 	{
+			content: ""; clear: both; display: block;
+			}
+	
+nav ul li 	{
+		float: left;
+		}
+		
+nav ul li:hover	 	{
+				background: #444444;
+				}
+				
+nav ul li:hover a 	{
+				color: white;
+				text-decoration: none;
+				}
+	
+	nav ul li a {
+		display: block; padding: 6px 40px;
+		color: #444444; text-decoration: none;
+	}
+	
+nav ul ul {
+	background: #444444; border-radius: 0px; padding: 0;
+	position: absolute; top: 100%;
+}
+	nav ul ul li {
+		float: none; 
+		border-top: 1px solid #6b727c;
+		border-bottom: 1px solid #575f6a;
+		position: relative;
+	}
+		nav ul ul li a {
+			color: #fff;
+		}	
+			nav ul ul li a:hover {
+				background: black;
+			}
+			
+nav ul ul ul {
+	position: absolute; left: 100%; top:0;
+}
+				
+#greeting 	{
+			color: white;
+			text-align:	right;
+			margin-right:	5px;
+			}
+						
+#main		{
+			background-color:	none;
+			text-align:			center;
+			margin:				0px 0px 5px 0px;
+			width:				55%;
+			margin-left:		auto;
+			margin-right:		auto;
+			min-width:			700px;
+			}
+			
+#form		{
+			display:			block;
+			float:				left;
+			width:				70%;
+			margin:				0px 0px 0px 0px;
+			background-color:	white;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+			}
+			
+#dealoftheday		{
+					float:	left;
+					width:	70%;
+					background-color:	white;
+					margin-top:		5px;
+					box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+					}
+					
+#imgblock			{
+					float:	left;
+					width:	70%;
+					background-color:	white;
+					margin-top:		5px;
+					padding:	0;
+					box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+					}					
+			
+#mailer		{
+			float: right;
+			width:	28%;
+			background-color:	white;
+			margin-bottom:		5px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+			}
+			
+#start		{
+			width:		100%;
+			background-color:	white;
+			margin-top:			5px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+			}
+			
+#trending 	{ 
+			float: right;
+			width:	28%;
+			background-color:	white;
+			margin-bottom:		5px;
+			box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+			}
+			
+#footer 	{
+			background-color:	black;
+			opacity:			0.6;
+			margin-top:			5px;
+			font-size:			14px;
+			font-weight:		bold;
+			color:				white;
+			text-align:			center;
+			clear:				both;
+			background:			clear;
+			padding:			5px;
+			}
+			
+#footer a	{
+			text-decoration:none;
+			color: white;
+			}
+#footer a:hover{color:red;}
+			
+#footer img	{	height:50px; width:50px; }
+			
+#footertable	{
+				text-align: left;
+				vertical-align:middle;
+				padding:	20px;
+				border:	none;
+				margin-left: auto;
+				margin-right: auto;
+				}
+			
+a:link		{ color:		#777777;	}
+
+a:visited	{ color:		#999999;	}
+
+a:hover		{
+			color:			#ff0000;
+			}
+			
+a:active	{ color:			black;	}
+			
+label		{
+		width:			11em;
+		float:			left;
+		text-align:		left;
+		margin-right:	0.5em;
+		margin-left:	1em;
+		display:		block;
+		color:			black;
+		}
+		
+p		{ 
+		color:			black;	
+		padding:		5px;
+		}
+		
+#product_table	{
+				width:	100%;
+				border: none;
+				padding: 10px;
+				float:	left;
+				text-align: left;
+				background-color:	white;
+				box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+				}
+
+#cart_table
+{
+	width:	90%;
+	margin:	0px 0px 0px 40px;
+}
+
+table, th, td
+{
+	border-right: 1px solid black; 
+}
+table 	{ 
+		border-left: 1px solid black;
+		border-bottom: 1px solid black;
+		}
+
+#cart_table
+{
+	text-align:	center;
+}
+
+#container tr
+{
+	text-align:	center;
+}
+
+th
+{
+	padding:	20px;
+	margin:		20px;
+}
+
+#shopping_img
+{
+	/width:	3000px;
+	height:	100px;
+	padding:	0px 15px 0px 15px;
+}
+
+#cart_buttons
+{
+	text-align:	right;
+}
+
+#cont_shop
+{
+	padding-left:	45px;
+}
+
+.dropdown 
+{
+color: #444444;
+margin: 3px -22px 0 0;
+width: 143px;
+position: relative;
+height: 17px;
+text-align:left;
+float:	right;
+}
+.submenu
+{
+background: #fff;
+position: absolute;
+top: -12px;
+left: -20px;
+z-index: 100;
+width: 135px;
+display: none;
+margin-left: 10px;
+padding: 40px 0 5px;
+border-radius: 6px;
+box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+.dropdown li a 
+{
+color: #444444;
+display: block;
+font-family: arial;
+font-weight: bold;
+padding: 6px 15px;
+cursor: pointer;
+text-decoration:none;
+}
+
+.dropdown li a:hover
+{
+background:black;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+a.account 
+{
+font-size: 14px;
+line-height: 16px;
+color: #444444;
+position: absolute;
+z-index: 110;
+display: block;
+padding: 11px 0 0 20px;
+height: 28px;
+width: 121px;
+margin: -11px 0 0 -10px;
+text-decoration: none;
+cursor:pointer;
+}
+
+.root
+{
+list-style:none;
+margin:0px;
+padding:0px;
+font-size: 11px;
+padding: 11px 0 0 0px;
+border-top:1px solid #dedede;
+}
+
+
+
+
+
+
+
+
+
+/* Navigation found at: 
+	http://line25.com/tutorials/how-to-create-a-pure-css-dropdown-menu on Oct. 29th 2012 */
+/* Sharing menu:
+	https://www.addthis.com/get/sharing#.UMjMNjToRKZ */
